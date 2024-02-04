@@ -24,12 +24,13 @@ def predict_class(img):
 
 
 def app():
-    st.set_page_config(page_title="SMOKER DETECTION API")
-    st.header("SMOKER DETECTION")
+    st.set_page_config(page_title="SMOKER DETECTor API")
+    st.header("SMOKER DETECTor")
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg"])
     image=""   
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
+        image = ImageOps.fit(image,(250,250))
         st.image(image, caption="Uploaded Image.")
         submit=st.button("DETECT")
         if submit:
