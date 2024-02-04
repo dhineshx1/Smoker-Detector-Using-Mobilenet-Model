@@ -24,8 +24,8 @@ def predict_class(img):
 
 
 def app():
-    st.set_page_config(page_title="SMOKER DETECTor API")
-    st.header("SMOKER DETECTor")
+    st.set_page_config(page_title="SMOKER DETECTOR API")
+    st.header("SMOKER DETECTOR")
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg"])
     image=""   
     if uploaded_file is not None:
