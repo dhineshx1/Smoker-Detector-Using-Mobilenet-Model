@@ -20,7 +20,7 @@ This project aims to develop an AI system for  detection of smoking incidents th
 
 ## Demo 
 
-https://drive.google.com/file/d/1qPmUCj3qarBSy7H1qIuh56xXYbOOBm4l/view?usp=sharing
+Demopic\Screenshot 2024-02-05 144625.png
 
 
 
